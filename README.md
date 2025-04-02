@@ -1,5 +1,4 @@
-```markdown
-# ShortifyURL- Load-Balanced URL Shortener
+# ShortifyURL-Load-Balanced URL Shortener
 
 ## Project Overview
 This project is a containerized URL shortener service that allows users to submit long URLs and get a shortened version. The system is designed to be scalable using Docker and Kubernetes, with a load balancer distributing requests across multiple instances. The URL mappings are stored in an in-memory key-value store (Redis).
@@ -138,12 +137,4 @@ kubectl get events -n url-shortener
 
 ---
 
-## Contributors
-- [Team Member 1]
-- [Team Member 2]
-- [Team Member 3]
-- [Team Member 4]
-
 This project is part of the **Cloud Computing Course (UE22CS351B)**, Semester 6 (2025).
-```
-
